@@ -2,20 +2,16 @@
 
 An exploratory data analysis project examining how housing prices vary across eight Greater Toronto Area (GTA) municipalities, and whether municipal-level socioeconomic indicators are associated with those prices.
 
----
-
 ## Research Questions
 
 1. Which GTA municipalities have the highest average housing prices, and how much do they differ?
-2. How does average housing price change as the number of bedrooms increases?
+2. How does the average housing price change as the number of bedrooms increases?
 3. Is there an association between a municipality's median household income and its average housing price? Does education level show a similar pattern?
-
----
 
 ## Data Sources
 
 **Dataset 1 - GTA Property Listings**
-- Source: [Kaggle — Toronto Properties by Mangaljit Singh](https://www.kaggle.com/datasets/mangaljitsingh/torontoproperties)
+- Source: [Kaggle - Toronto Properties by Mangaljit Singh](https://www.kaggle.com/datasets/mangaljitsingh/torontoproperties)
 - File: `clean_combined_toronto_property_data.xlsx`
 - 4,136 listings across 8 GTA municipalities (filtered from 7,324 total)
 
@@ -26,8 +22,6 @@ An exploratory data analysis project examining how housing prices vary across ei
 
 > **Note:** Raw data files are not included in this repository due to file size and licensing. Download them directly from the links above.
 
----
-
 ## Tools & Technologies
 
 - **Python** - data loading, cleaning, and visualization
@@ -35,8 +29,6 @@ An exploratory data analysis project examining how housing prices vary across ei
 - **SQL** - `GROUP BY`, `AVG`, `COUNT`, `JOIN`, and parameterized queries
 - **pandas** - data manipulation and preprocessing
 - **matplotlib** - charts and scatter plots
-
----
 
 ## Database Schema
 
@@ -63,8 +55,6 @@ An exploratory data analysis project examining how housing prices vary across ei
 | pct_bachelor | REAL | % of population with a bachelor's degree or higher |
 | pct_low_income | REAL | % in low income (LIM-AT) |
 
----
-
 ## Key Findings
 
 - **Municipality is the strongest price driver.** Oakville averages $2.49M compared to Toronto's $1.1M. A gap of over $1.3M for the same number of bedrooms.
@@ -72,7 +62,6 @@ An exploratory data analysis project examining how housing prices vary across ei
 - **Median household income is positively associated with housing prices** at the municipal level. Higher-income municipalities (Oakville, Vaughan) tend to have higher average prices.
 - **Education level is a weaker predictor.** The relationship exists but is inconsistent. Brampton and Mississauga have similar average prices despite different bachelor's degree rates.
 
----
 
 ## How to Run
 
@@ -88,16 +77,12 @@ An exploratory data analysis project examining how housing prices vary across ei
    ```
    Or open `project.ipynb` in Jupyter Notebook / JupyterLab.
 
----
-
 ## Limitations
 
 - Data represents **listing prices**, not final sale prices
 - Census data is from **2021** (income figures from 2020); listing data has no clear date stamp
 - Only **8 municipalities** so trends are suggestive, not conclusive
 - Missing variables: property type (condo vs. detached), square footage, lot size, proximity to transit
-
----
 
 ## Project Structure
 
