@@ -58,7 +58,7 @@ An exploratory data analysis project examining how housing prices vary across ei
 ## Key Findings
 
 - **Municipality is the strongest price driver.** Oakville averages $2.49M compared to Toronto's $1.1M. A gap of over $1.3M for the same number of bedrooms.
-- **Bedroom count has a strong positive relationship with price.** Average prices roughly quintuple from 1-bedroom (~$683K) to 5-bedroom (~$3.6M) properties.
+- **Bedroom count has a strong positive relationship with price.** Average prices roughly quintuple from 1-bedroom ($683K) to 5-bedroom ($3.6M) properties.
 - **Median household income is positively associated with housing prices** at the municipal level. Higher-income municipalities (Oakville, Vaughan) tend to have higher average prices.
 - **Education level is a weaker predictor.** The relationship exists but is inconsistent. Brampton and Mississauga have similar average prices despite different bachelor's degree rates.
 
